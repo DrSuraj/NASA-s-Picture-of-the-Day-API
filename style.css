@@ -1,1 +1,41 @@
+/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+#search-form {
+    margin-top: 20px;
+}
+
+#current-image-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#search-history {
+    list-style-type: none;
+    padding: 0;
+}
+
+#search-history li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#search-history li:hover {
+    text-decoration: underline;
+}
 
